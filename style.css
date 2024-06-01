@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+#card img{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+
+}
+#card h3{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+
+}
+#btn{
+    height: 50px;
+    width: 150px;
+    background-color: lightseagreen;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+#name{
+    height: 80px;
+    width: 350px;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+#name h6{
+    font-size: 14px;
+}
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+.glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(1, 9, 20, 0.4);
+  }
